@@ -10,3 +10,22 @@
     justify-content: space-between;
     align-items: flex-end;
 }
+
+.promises-counter__icon {
+    margin-bottom: 8px;
+}
+
+.promises-counter__number {
+    color: #0d3e60;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 4px;
+}
+
+.promises-counter__description {
+    color: #0d3e60;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1;
+}
