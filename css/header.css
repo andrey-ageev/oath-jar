@@ -89,3 +89,10 @@
     font-weight: 700;
     line-height: 36px;
 }
+
+.header-names-button {
+    width: 91px;
+    height: 91px;
+    background-color: #ed543a;
+    border-radius: 60px;
+}
