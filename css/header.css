@@ -36,3 +36,24 @@
     max-width: 650px;
     margin: 0 auto;
 }
+
+.header__icon-mail {
+    margin-bottom: 30px;
+
+}
+
+.header__invite {
+    color: #eb5238;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1;
+    margin-bottom: 21px;
+}
+
+.header__title {
+    color: #0d3e60;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 36px;
+}
