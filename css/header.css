@@ -58,3 +58,34 @@
     line-height: 1;
     margin-bottom: 36px;
 }
+
+.header-names {
+    display: block;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.header-names-left {
+    text-align: right;
+}
+
+.header-names-right {
+    text-align: left;
+}
+
+.header-names__name {
+    color: #eb5238;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.header-names__email {
+    color: #0d3e60;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 36px;
+}
