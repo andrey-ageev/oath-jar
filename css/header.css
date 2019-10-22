@@ -90,7 +90,7 @@
     line-height: 36px;
 }
 
-.header-names-button {
+.header-names-circles {
     width: 91px;
     height: 91px;
     background-color: #ed543a;
@@ -103,7 +103,7 @@
     margin-right: 37px;
 }
 
-.header-names-button::after {
+.header-names-circles::after {
     content: "+";
     display: block;
     width: 37px;
