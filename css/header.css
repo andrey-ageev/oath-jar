@@ -1,6 +1,7 @@
 .header {
     width: 100%;
     height: 1195px;
+    padding-top: 92px;
     background-color: #fffef9;
     background-image: linear-gradient(to top, #ffffff 0%, #fff9df 100%);
 }
