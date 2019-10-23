@@ -129,3 +129,10 @@
     text-align: center;
     margin-bottom: 16px;
 }
+
+.scroll__title {
+    color: #8d8b80;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
