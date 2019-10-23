@@ -136,3 +136,43 @@
     font-weight: 500;
     line-height: 24px;
 }
+
+.scroll-bg {
+    max-width: 751px;
+    height: 122px;
+    background-color: #fff9df;
+    position: relative;
+    text-align: center;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scroll-bg::before {
+    content: "";
+    width: 57px;
+    height: 174px;
+    display: block;
+    position: absolute;
+    left: -23px;
+    top: -28px;
+    background-image: url("../img/header/left-scroll.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.scroll-bg::after {
+    content: "";
+    width: 57px;
+    height: 174px;
+    display: block;
+    position: absolute;
+    right: -23px;
+    top: -28px;
+    background-image: url("../img/header/right-scroll.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
