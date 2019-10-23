@@ -181,3 +181,11 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.link-circle {
+    width: 55px;
+    height: 55px;
+    background-color: #eb5238;
+    border-radius: 50px;
+    z-index: 2;
+    position: relative;
