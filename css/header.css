@@ -198,4 +198,6 @@
     border-radius: 50px;
     background-color: #eb5238;
     opacity: 0.2;
+    z-index: 1;
+    position: absolute;
 }
