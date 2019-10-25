@@ -1,5 +1,6 @@
 .header {
     width: 100%;
+    position: relative;
     padding-top: 92px;
     padding-bottom: 410px;
     background-color: #fffef9;
@@ -182,12 +183,15 @@
 }
 
 .link-circle {
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
     display: block;
     width: 81px;
     height: 81px;
     border-radius: 50px;
     background-color: rgba(235, 82, 56, .2);
-    position: relative;
+    position: absolute;
 }
 
 .link-circle-inner {
