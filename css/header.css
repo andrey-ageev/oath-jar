@@ -182,22 +182,24 @@
 }
 
 .link-circle {
-    width: 55px;
-    height: 55px;
-    background-color: #eb5238;
-    border-radius: 50px;
-    z-index: 2;
-    position: relative;
-}
-
-.link-circle:after {
-    content: "";
     display: block;
     width: 81px;
     height: 81px;
     border-radius: 50px;
-    background-color: #eb5238;
-    opacity: 0.2;
-    z-index: 1;
-    position: absolute;
+    background-color: rgba(235, 82, 56, .2);
+    position: relative;
 }
+
+.link-circle-inner {
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    background-color: #eb5238;
+    position: absolute;
+    left: 13px;
+    top: 13px;
+    background-image: url("../img/icons/arrow-down.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
