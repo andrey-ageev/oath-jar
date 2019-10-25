@@ -189,3 +189,13 @@
     z-index: 2;
     position: relative;
 }
+
+.link-circle:after {
+    content: "";
+    display: block;
+    width: 81px;
+    height: 81px;
+    border-radius: 50px;
+    background-color: #eb5238;
+    opacity: 0.2;
+}
