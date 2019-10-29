@@ -150,11 +150,30 @@ body {
     text-decoration: underline;
 }
 
-/* 
 .submit {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    border: none;
+    cursor: pointer;
 
+    width: 216px;
+    height: 52px;
+    border-radius: 20px;
+    background-color: #eb5238;
+    background-image: linear-gradient(to top, #eb6f38 0%, #eb5238 100%);
 }
 
+.submit:hover {
+    background-image: linear-gradient(to top, #eb5238 0%, #eb6f38 100%);
+}
+/* 
+.submit:focus {
+
+}
+ */
+/* 
 .form-notice {
 
 }
