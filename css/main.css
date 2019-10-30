@@ -157,7 +157,7 @@ body {
     line-height: 30px;
     border: none;
     cursor: pointer;
-
+    margin-right: 27px;
     width: 216px;
     height: 52px;
     border-radius: 20px;
@@ -173,8 +173,26 @@ body {
 
 }
  */
-/* 
-.form-notice {
 
+ .form-label {
+     cursor: pointer;
+ }
+
+.form-notice {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0d3e60;
 }
- */
+
+.form-notice a {
+    font-weight: 700;
+    text-decoration: underline;
+    color: #eb5238;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
