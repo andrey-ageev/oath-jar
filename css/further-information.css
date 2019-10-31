@@ -1,4 +1,10 @@
-
+.further-information-wrapper {
+    background-image: url("../img/illustrations/couple.png");
+    background-repeat: no-repeat;
+    background-position: left 100px;
+    padding-top: 105px;
+    padding-bottom: 65px;
+}
 
 .further-information-content {
     width: 555px;
