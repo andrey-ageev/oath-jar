@@ -41,7 +41,7 @@ body {
     padding-left: 47px;
 }
 
-.checklist li:before {
+.checklist li::before {
     content: "";
     display: block;
     width: 32px;
