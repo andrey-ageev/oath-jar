@@ -168,11 +168,11 @@ body {
 .submit:hover {
     background-image: linear-gradient(to top, #eb5238 0%, #eb6f38 100%);
 }
-/* 
-.submit:focus {
 
+.submit:focus {
+    outline: none;
 }
- */
+
 
  .form-label {
      cursor: pointer;
