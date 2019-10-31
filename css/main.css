@@ -16,6 +16,11 @@ body {
     margin: 0 auto;
 }
 
+.justify-between {
+    display: flex;
+    justify-content: space-between;
+}
+
 .title-2 {
     color: #0d3e60;
     font-size: 30px;
