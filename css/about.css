@@ -20,7 +20,7 @@
 
 .about-toggle-wrapper {
     display: flex;
-    margin-bottom: 92px;
+    margin-bottom: 90px;
 }
 
 .about__toggle {
@@ -36,6 +36,9 @@
     line-height: 46px;
     margin-right: 20px;
     cursor: pointer;
+    transition: 0.2s ease-in;
+    text-decoration: none;
+    text-align: center;
 }
 
 .about__toggle:hover {
@@ -48,6 +51,6 @@
     font-size: 30px;
     font-weight: 700;
     line-height: 23.99px;
-    margin-bottom: 72px;
+    margin-bottom: 65px;
 }
 
