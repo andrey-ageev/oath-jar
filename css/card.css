@@ -27,6 +27,14 @@
     background-color: #fff;
 }
 
+.card:hover .card-circle .svg-path {
+    fill: #0d3e60;
+}
+
+.card-circle .svg-path {
+    fill: #fff;
+}
+
 .card__title {
     font-size: 20px;
     font-weight: 700;
