@@ -62,6 +62,10 @@
     border-radius: 20px;
     background-color: #ffffff;
     padding: 65px 30px 35px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
 }
 
 .card__title {
@@ -78,7 +82,34 @@
     font-weight: 400;
     line-height: 24px;
 }
-/* 
-.card__read-more {
 
-} */
+.card__read-more {
+    margin-top: auto;
+}
+
+.card-circle {
+    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    display: block;
+    width: 76px;
+    height: 76px;
+    border-radius: 50px;
+    background-color: rgba(235, 82, 56, .2);
+    position: absolute;
+}
+
+.card-circle-inner {
+    width: 62px;
+    height: 62px;
+    border-radius: 50px;
+    background-color: #eb5238;
+    display: block;
+    z-index: 2;
+    position: absolute;
+    left: 7px;
+    top: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
