@@ -31,6 +31,10 @@
     fill: #0d3e60;
 }
 
+.card:hover .icon-read-more {
+    fill: #ffffff;
+}
+
 .card-circle .svg-path {
     fill: #fff;
     transition: all 0.4s ease-in-out;
@@ -79,5 +83,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.4s ease-in-out;
+}
+
+.icon-read-more {
+    fill: #fff9df;
     transition: all 0.4s ease-in-out;
 }
