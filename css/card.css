@@ -33,6 +33,7 @@
 
 .card-circle .svg-path {
     fill: #fff;
+    transition: all 0.4s ease-in-out;
 }
 
 .card__title {
@@ -62,6 +63,7 @@
     border-radius: 50px;
     background-color: rgba(235, 82, 56, .2);
     position: absolute;
+    transition: all 0.4s ease-in-out;
 }
 
 .card-circle-inner {
@@ -77,4 +79,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.4s ease-in-out;
 }
