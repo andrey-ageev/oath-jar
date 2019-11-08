@@ -24,6 +24,7 @@ p {
 .justify-between {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .title-2 {
