@@ -2,14 +2,27 @@
 .header {
     width: 100%;
     position: relative;
-    padding-top: 92px;
-    padding-bottom: 410px;
+    padding-top: 30px;
+    padding-bottom: 150px;
     background-color: #fffef9;
     background-image: url(../img/illustrations/illustration-header.png),
     linear-gradient(to top, #ffffff 0%, #fff9df 100%);
     background-repeat: no-repeat;
     background-position: center bottom, top left;
     background-size: 100% auto;
+}
+
+@media (min-width: 700px) {
+    .header {
+        padding-bottom: 220px;
+    }
+}
+
+@media (min-width: 1140px) {
+    .header {
+        padding-top: 92px;
+        padding-bottom: 410px;
+    }
 }
 
 .logo-wrapper {
