@@ -1,6 +1,5 @@
 .header {
     width: 100%;
-    height: 100%;
     position: relative;
     padding-top: 30px;
     padding-bottom: 150px;
@@ -101,6 +100,17 @@
 
 .tagline strong {
     font-weight: 700;
+}
+
+.logo {
+    margin-bottom: 25px;
+    position: relative;
+}
+
+@media (min-width: 1140px) {
+    .logo {
+        margin-bottom: 0;
+    }
 }
 
 .promises-counter__icon {
