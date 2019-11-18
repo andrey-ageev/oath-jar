@@ -116,6 +116,13 @@
 
 .promises-counter__icon {
     margin-bottom: 8px;
+    text-align: center;
+}
+
+@media (min-width: 1140px) {
+    .promises-counter__icon {
+        text-align: left;
+    }
 }
 
 .promises-counter__number {
