@@ -307,7 +307,7 @@
 }
 
 .scroll-bg {
-    max-width: 751px;
+    max-width: 750px;
     height: 122px;
     background-color: #fff9df;
     position: relative;
@@ -316,8 +316,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+@media (min-width: 800px) {
+    .scroll-bg {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1140px) {
+    .scroll-bg {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .scroll-bg::before {
@@ -371,7 +385,6 @@
     background-position: center;
 }
 
-.scroll,
 .link-circle,
 .cloud-1,
 .cloud-2 {
