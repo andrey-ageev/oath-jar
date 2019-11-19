@@ -370,6 +370,12 @@
     position: absolute;
 }
 
+@media (min-width: 700px) {
+    .link-circle {
+        transform: translate(-50%, 20%);
+    }
+}
+
 @media (min-width: 1140px) {
     .link-circle {
         transform: translate(-50%, 0);
