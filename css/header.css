@@ -2,7 +2,7 @@
     width: 100%;
     position: relative;
     padding-top: 30px;
-    padding-bottom: 150px;
+    padding-bottom: 170px;
     background-color: #fffef9;
     background-image: 
         url(../img/illustrations/illustration-header.png),
@@ -12,9 +12,9 @@
     background-size: 100% auto;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 680px) {
     .header {
-        padding-bottom: 220px;
+        padding-bottom: 230px;
     }
 }
 
