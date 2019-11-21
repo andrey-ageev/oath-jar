@@ -1,7 +1,13 @@
 .further-information-wrapper {
-    
-    padding-top: 105px;
-    padding-bottom: 65px;
+    padding-top: 60px;
+    padding-bottom: 35px;
+}
+
+@media (min-width: 600px) {
+    .further-information-wrapper {
+        padding-top: 105px;
+        padding-bottom: 65px;
+    }
 }
 
 @media (min-width: 1140px) {
