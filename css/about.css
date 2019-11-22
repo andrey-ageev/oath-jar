@@ -65,7 +65,6 @@
         font-size: 22px;
         order: 2;
         width: 555px;
-        
     }
 }
 
@@ -75,10 +74,19 @@
 
 .about-toggle-wrapper {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 90px;
+    margin-bottom: 20px;
 }
 
+@media (min-width: 1140px) {
+    .about-toggle-wrapper {
+        flex-direction: row;
+        margin-bottom: 90px;
+    }
+}
+
+a.about__toggle,
 .about__toggle {
     width: 165px;
     height: 46px;
@@ -90,11 +98,19 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 46px;
-   /*  margin-right: 20px; */
+    margin-right: 20px;
     cursor: pointer;
     transition: 0.2s ease-in;
     text-decoration: none;
     text-align: center;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 1140px) {
+    a.about__toggle,
+    .about__toggle {
+        margin-bottom: 0;
+    }
 }
 
 .about__toggle:hover {
