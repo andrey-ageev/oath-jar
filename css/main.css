@@ -32,11 +32,6 @@ p {
     }
 }
 
-.justify-between {
-    display: flex;
-    justify-content: space-between;
-}
-
 .aline-center {
     display: flex;
     align-items: center;
