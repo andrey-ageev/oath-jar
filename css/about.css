@@ -123,6 +123,12 @@ a.about__toggle,
     font-size: 30px;
     font-weight: 700;
     line-height: 23.99px;
-    margin-bottom: 65px;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 1140px) {
+    .title-special {
+        margin-bottom: 65px;
+    }
 }
 
