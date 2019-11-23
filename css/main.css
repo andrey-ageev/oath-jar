@@ -46,9 +46,16 @@ p {
     color: #0d3e60;
     font-size: 30px;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 1.2;
     margin-top: 0;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
+}
+
+@media (min-width: 890px) {
+    .title-2 {
+        line-height: 24px;
+        margin-bottom: 35px;
+    }
 }
 
 .checklist {
@@ -86,7 +93,7 @@ p {
 }
  */
 .input {
-    width: 293px;
+    width: auto;
     height: 51px;
     border-radius: 19px;
     background-color: #fff9df;
@@ -105,6 +112,7 @@ p {
 
 @media (min-width: 600px) {
     .input {
+        width: 293px;
         margin-bottom: 0;
     }
 }
