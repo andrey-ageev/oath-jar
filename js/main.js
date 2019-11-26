@@ -8,6 +8,8 @@ $(document).ready(function(){
 
         var href = $(this).attr('href');
         console.log(href);
+
+        $(href).show();
     });
 
 });
