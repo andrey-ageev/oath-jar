@@ -255,6 +255,7 @@ p {
 }
 
 .scrollUp-wrapper {
+    display: none;
     width: 81px;
     height: 81px;
     border-radius: 50px;

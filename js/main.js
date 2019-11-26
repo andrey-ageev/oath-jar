@@ -10,4 +10,13 @@ $(document).ready(function(){
         $(href).fadeIn();
     });
 
+    $(window).scroll(function(){
+
+        console.log( $(this).scrollTop() );
+
+        if ($(this).scrollTop() > 1280 ) {
+            $('#scrollUp').fadeIn();
+        }
+    });
+
 });
