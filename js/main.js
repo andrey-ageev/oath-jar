@@ -14,8 +14,10 @@ $(document).ready(function(){
 
         console.log( $(this).scrollTop() );
 
-        if ($(this).scrollTop() > 1280 ) {
+        if ( $(this).scrollTop() > 1280 ) {
             $('#scrollUp').fadeIn();
+        } else {
+            $('#scrollUp').fadeOut();
         }
     });
 
