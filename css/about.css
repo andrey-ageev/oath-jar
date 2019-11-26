@@ -178,3 +178,6 @@ a.about__toggle,
     }
 }
 
+.about-content__box {
+    display: none;
+}
