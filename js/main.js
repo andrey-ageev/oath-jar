@@ -1,5 +1,6 @@
 $(document).ready(function(){
-
+    
+    /* делаем табы */
     $('.about__toggle').click(function(event){
         event.preventDefault();
 
@@ -10,15 +11,22 @@ $(document).ready(function(){
         $(href).fadeIn();
     });
 
+    /* Следим за скроллом и показываем / скрываем кнопку */
     $(window).scroll(function(){
-
-        console.log( $(this).scrollTop() );
+        /* console.log( $(this).scrollTop() ); */
 
         if ( $(this).scrollTop() > 1280 ) {
             $('#scrollUp').fadeIn();
         } else {
             $('#scrollUp').fadeOut();
         }
+    });
+
+    /* При клике на кнопку - делаем прокрутку страницы вверх */
+    $('#scrollUp').click(function(event) {
+        /* console.log(111); */
+        event.preventDefault();
+        $('html').animate({scrollTop: 0}, 800);
     });
 
 });
