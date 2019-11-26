@@ -11,11 +11,14 @@ $(document).ready(function(){
         $(href).fadeIn();
     });
 
+    var windowHeight = $(window).height();
+    /* console.log(windowHeight); */
+
     /* Следим за скроллом и показываем / скрываем кнопку */
     $(window).scroll(function(){
         /* console.log( $(this).scrollTop() ); */
 
-        if ( $(this).scrollTop() > 1280 ) {
+        if ($(this).scrollTop() > windowHeight * 1.5 ) {
             $('#scrollUp').fadeIn();
         } else {
             $('#scrollUp').fadeOut();
