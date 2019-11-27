@@ -262,9 +262,16 @@ p {
     background-color: rgba(235, 82, 56, .2);
     cursor: pointer;
     position: fixed;
-    right: 75px;
-    bottom: 75px;
+    right: 15px;
+    bottom: 15px;
     transform: rotate(180deg);
+}
+
+@media (min-width: 1140px) {
+    .scrollUp-wrapper {
+        right: 65px;
+        bottom: 65px;
+    }
 }
 
 .scrollUp-icon {
