@@ -32,4 +32,11 @@ $(document).ready(function(){
         $('html').animate({scrollTop: 0}, 800);
     });
 
+    /* При клике на кнопку - делаем прокрутку вниз */
+    $('#scrollDown').click(function(event){
+        console.log('click!');
+        event.preventDefault();
+        
+    });
+
 });
