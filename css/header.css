@@ -26,13 +26,15 @@
 }
 
 @media (min-width: 680px) {
-    .header {
+    .header,
+    .header-home  {
         padding-bottom: 230px;
     }
 }
 
 @media (min-width: 1140px) {
-    .header {
+    .header,
+    .header-home {
         padding-top: 92px;
         padding-bottom: 410px;
     }
