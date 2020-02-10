@@ -1,3 +1,10 @@
 .start-keeping-content {
-    width: 460px;
+    width: 458px;
+}
+
+.your-name {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
 }

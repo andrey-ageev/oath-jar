@@ -103,6 +103,34 @@
     }
 }
 
+.tagline-home {
+    color: #0d3e60;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 40px;
+    width: 458px;
+    height: 134px;
+    box-shadow: 4px 7px 35px rgba(25, 40, 66, 0.1);
+    background-color: #fffef9;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 125px;
+    padding-top: 13px;
+    border-radius: 24px;
+}
+
+.tagline-home:after {
+    position: absolute;
+    left: 73px;
+    bottom: 267px;
+    content: "";
+    display: block;
+    border: 8px solid transparent;
+    border-top: 10px solid rgb(185, 46, 46);
+    
+}
+
 .tagline {
     color: #0d3e60;
     font-size: 16px;

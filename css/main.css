@@ -89,11 +89,11 @@ p {
     background-repeat: no-repeat;
     background-position: center;
 }
-/* 
-.form {
 
+.input-home {
+    border: none;
 }
- */
+
 .input {
     width: auto;
     height: 51px;
