@@ -1,13 +1,22 @@
-/* Home forms */
-
-
-/* Invitation forms */
+/* Home form */
 
 .input-home {
     border: none;
+    color: #eb5238;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
 }
 
-.input {
+.input-home:focus {
+    outline: none;
+}
+
+
+/* Invitation form */
+
+.input-invitation {
     width: auto;
     height: 51px;
     border-radius: 19px;
@@ -26,16 +35,16 @@
 }
 
 @media (min-width: 600px) {
-    .input {
+    .input-invitation {
         width: 293px;
         margin-bottom: 0;
     }
 }
 
-::-webkit-input-placeholder { /* Chrome */
+::-webkit-input-invitation-placeholder { /* Chrome */
     color: #2e435e;
 }
-:-ms-input-placeholder { /* IE 10+ */
+:-ms-input-invitation-placeholder { /* IE 10+ */
     color: #2e435e;
 }
 ::-moz-placeholder { /* Firefox 19+ */
@@ -47,7 +56,7 @@
     opacity: 1;
 }
 
-.input:focus {
+.input-invitation:focus {
     outline: none;
 }
 
