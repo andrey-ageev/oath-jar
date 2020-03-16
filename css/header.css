@@ -242,6 +242,20 @@
     }
 }
 
+.header-home__title {
+    color: #0d3e60;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 60px;
+}
+
+@media (min-width: 1140px) {
+    .header-home__title {
+       font-size: 38px;
+    }
+}
+
 .header-names {
     display: block;
     margin-bottom: 60px;
